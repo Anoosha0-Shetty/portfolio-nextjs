@@ -59,19 +59,19 @@ export default function Resume() {
                                     <li>Next.js</li>
                                     <li>BackboneJS</li>
                                     <li>Underscore Template</li>
-                                    <li>Accessibility</li>
+                                    <li>Web Accessibility</li>
                                     <li>MaterialUI</li>
                                 </ul>
                             </section>
                             <section>
                                 <h3>Others:</h3>
                                 <ul>
-                                    <li>E2E Testing</li>
-                                    <li>Performance Optimization</li>
-                                    <li>Software Testing</li>
                                     <li>SE Optimization</li>
                                     <li>Accessibility Testing</li>
                                     <li>Responsive Web Design</li>
+                                    <li>Performance Optimization</li>
+                                    <li>E2E Testing</li>
+                                    <li>Software Testing</li>
                                 </ul>
                             </section>
                         </div>
@@ -112,8 +112,9 @@ export default function Resume() {
                                                 various brands of the company with Backbone JS, Underscore Templets, JavaScript, jQuery, HTML and
                                                 CSS
                                             </li>
+                                            <li> Accessibility experience for all the features.</li>
                                             <li>
-                                                Implemented Aurus Payment gateway in the checkout.
+                                                Implemented Aurus Payment gateway in checkout section.
                                             </li>
                                             <li>
                                                 Delivered an overall fast, yet accessible and silky smooth user experience in the web application.
@@ -153,7 +154,7 @@ export default function Resume() {
                                 <p>
                                     Links to some of my work can be found on
                                     <a href="/work">
-                                        olaolu.dev/work
+                                        /work
                                     </a>
                                 </p>
                             </section>
