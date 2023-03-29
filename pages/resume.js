@@ -5,6 +5,11 @@ import styles from '../src/app/page.module.css'
 
 export default function Resume() {
     const [initialRenderComplete, setInitialRenderComplete] = useState(false);
+    
+    const handleMenuClick = () => {
+        // setIsOpen(!isOpen);
+        console.log('text')
+      };
 
     // This useEffect will only run once, during the first render
     useEffect(() => {
@@ -22,12 +27,12 @@ export default function Resume() {
             <RootLayout>
                 <div className={styles.resume}>
                     <aside className={styles.meta}>
-                        <a target="_blank" href="https://www.linkedin.com/in/anooshashetty/" aria-label="Connect with Olaolu on LinkedIn, opens a new tab." class="no-marker linkedin">
+                        <a target="_blank" href="https://www.linkedin.com/in/anooshashetty/" aria-label="Connect with Olaolu on LinkedIn, opens a new tab.">
                             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
                             </svg>
                         </a>
-                        <a href="https://olaolu.dev/Resume-Olaolu-Olawuyi.pdf" target="_blank" aria-label="Download a PDF copy of this resume, opens a new tab." class="no-marker">
+                        <a href="https://olaolu.dev/Resume-Olaolu-Olawuyi.pdf" target="_blank" aria-label="Download a PDF copy of this resume, opens a new tab.">
                             <svg height="24" viewBox="8 8.003 48 47.997" width="24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M29.283 12.19a19.624 19.624 0 015.434 0 2 2 0 00.567-3.959 23.75 23.75 0 00-6.566 0 2 2 0 00.565 3.959z"></path>
                                 <path d="M42.91 10.619a2 2 0 00-1.82 3.561C47.819 17.621 52 24.449 52 32c0 11.028-8.972 20-20 20s-20-8.972-20-20c0-7.551 4.181-14.379 10.911-17.819a2 2 0 00-1.821-3.561C13.016 14.747 8 22.939 8 32c0 13.233 10.766 24 24 24 13.233 0 24-10.767 24-24 0-9.061-5.016-17.253-13.09-21.381z"></path>
@@ -150,7 +155,7 @@ export default function Resume() {
                                 </ul>
                             </section>
                             <section className={styles.projects}>
-                                <h3 class="heading">Projects</h3>
+                                <h3>Projects</h3>
                                 <p>
                                     Links to some of my work can be found on
                                     <a href="/work">

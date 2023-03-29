@@ -21,10 +21,10 @@ export default function Footer() {
             <div className={styles.footer}>
                 <div className={styles.info}>
                     <p>SAY HELLO</p>
-                    <a class="Link--primary" href="mailto:shettyanoosha92@gmail.com">shettyanoosha92@gmail.com</a>
-                    <a rel="nofollow me" class="Link--primary" href="https://www.linkedin.com/in/anooshashetty/">in/anooshashetty</a>
-                    <a rel="nofollow me" class="Link--primary" href="https://www.facebook.com/anoosha.shetty.33">anoosha.shetty.33</a>
-                    <a rel="nofollow me" class="Link--primary" href="https://www.instagram.com/la__incognito/">la__incognito</a>
+                    <a href="mailto:shettyanoosha92@gmail.com">shettyanoosha92@gmail.com</a>
+                    <a rel="nofollow me" href="https://www.linkedin.com/in/anooshashetty/">in/anooshashetty</a>
+                    <a rel="nofollow me" href="https://www.facebook.com/anoosha.shetty.33">anoosha.shetty.33</a>
+                    <a rel="nofollow me" href="https://www.instagram.com/la__incognito/">la__incognito</a>
                 </div>
                 <div className={styles.work}>
                     <a href='/resume'>My Resume</a>

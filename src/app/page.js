@@ -9,8 +9,8 @@ export default function Home() {
       <div className={styles.banner}>
         <div className={styles.midsection}>
           <div>
-              <div className={styles.title1}>Frontend</div>
-              <span className={styles.title2}>Developer<span>.</span></span>
+            <div className={styles.title1}>Frontend</div>
+            <span className={styles.title2}>Developer<span>.</span></span>
             <p className={styles.desc}>I like to craft solid and scalable frontend products with great user experiences.</p>
           </div>
           <figure className={styles.visage}>
@@ -22,25 +22,11 @@ export default function Home() {
       </div>
       <div className={styles.aboutme}>
         <div className={styles.content}><h2>Over the past 8 years,</h2><p>I've built products for companies and businesses around the globe ranging from healthcare websites to ecommerce websites with focus on fast, elegant and accessible user experiences.</p><p>Currently, I work at Guidesly India Private Limited as a Senior Frontend Developer crafting thoughtful and inclusive experiences that adhere to web standards.</p><p>Before now, I was Frontend Engineer at Ascena Retail Group, where I worked on ecommerce websites for multiple apparel brands handling solutions mainly for cart and checkout.</p><p>Prior to Ascena Retail Group, I was Programmer Analyst at Cognizant technology solutions, building Web applications and interfaces for a healthcare company AstraZeneca.</p></div>
-        <div className={styles.myImage}>
           <Image
             src={profilePic}
             alt="Picture of the author"
             responsive
           />
-        </div>
-      </div>
-      <div className={styles.contactme}>
-        <article>
-          <h3>Send me a message!</h3>
-          <p>Got a question or proposal, or just want </p><p> to say hello? Go ahead.</p>
-        </article>
-        <form class="contact-form hYlwmr" method="POST" target="_blank" action="https://formspree.io/hello@olaolu.dev" id="home-contact">
-          <input type="hidden" name="_subject" value="Message from olaolu.dev!" /><div class="form-row"><div class="cWhpWP input-group" data-id="full-name"><label for="full-name"> Your Name</label>
-            <input id="full-name" placeholder="Enter your name" type="text" name="name" required="required" /></div><div class="cWhpWP input-group" data-id="email"><label for="email"> Email Address</label>
-              <input id="email" placeholder="Enter your email address" type="email" name="_replyto" required="required" /></div></div><div class="form-row"><div class="cWhpWP input-group" data-id="message"><label for="message"> Your Message</label><textarea placeholder="Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?" id="message" name="message" required="required" rows="7" minlength="30"></textarea></div></div><button class="sauce-button hKeZLG" type="submit" id="submit-button"><div class="sauce-button__content">
-                Shoot
-                <svg width="72" height="22" viewBox="0 0 72 22" xmlns="http://www.w3.org/2000/svg" class="bow-arrow"><path fill="none" stroke="#4831d4" stroke-width="2" stroke-miterlimit="0" d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"></path></svg></div></button></form>
       </div>
     </div>
   )

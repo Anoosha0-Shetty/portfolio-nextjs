@@ -1,6 +1,6 @@
 .banner {
   background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
-  height: 805px;
+  height: 1000px;
 }
 
 .title1,
@@ -16,10 +16,10 @@
 }
 
 .midsection {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .desc {
@@ -42,10 +42,11 @@
 }
 
 .aboutme {
-  height: 745px;
+  height: auto;
   display: flex;
-  padding: 0% 5% 5% 5%;
+  padding: 0% 5% 0px 5%;
   color: #4831d4;
+  justify-content: space-between;
 }
 
 .aboutme div {
@@ -93,7 +94,7 @@
   display: flex;
   padding: 5%;
   font-size: 20px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -117,6 +118,7 @@
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  margin-top: 30px;
 }
 
 .workSection a {
@@ -128,11 +130,12 @@
 }
 
 .resume {
-  padding: 5%;
+  padding: 100px 5%;
 }
 
 .main {
   display: flex;
+  margin-top: 20px;
 }
 
 .resumeoutlines {
@@ -361,4 +364,185 @@
 
 .projects a {
   padding-left: 5px;
+}
+
+.logo svg {
+  width: 100px;
+}
+
+.headersection {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  padding: 20px 5% 20px;
+}
+
+.headersection ul {
+  list-style-type: none;
+  display: inline-flex;
+  color: #4831d4;
+}
+
+.headersection ul li {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.headersection ul li:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width : 800px) {
+  .headersection {
+    position: static;
+    background: #4831d4;
+    height: 80px;
+  }
+
+  .logo svg {
+    width: 60px;
+  }
+
+  .banner {
+    background: #4831d4;
+    height: 910px;
+  }
+
+  .midsection {
+    padding-top: 30px;
+    flex-direction: column;
+  }
+
+  .title1,
+  .title2 {
+    font-size: 40px;
+  }
+
+  .desc {
+    margin-bottom: 50px;
+  }
+
+  .photo {
+    width: 240px;
+    height: 320px;
+    margin: -600px auto;
+    z-index: 9;
+    position: sticky;
+  }
+
+  .headersection ul {
+    list-style-type: none;
+    display: inline-flex;
+    color: #badd76;
+  }
+
+  .headersection ul li {
+    font-size: 16px;
+  }
+
+  .headersection {
+    position: sticky;
+    top: 0px;
+  }
+
+  .workSection {
+    width: 90%;
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+  }
+
+  .aboutme {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .aboutme div {
+    width: 100%;
+  }
+
+  .aboutme img {
+    display: none;
+  }
+
+  .content h2 {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+
+  .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .resumeoutlines {
+    display: flex;
+    width: 100%;
+  }
+
+  .resumeoutlines section:first-of-type {
+    display: none;
+  }
+
+  .resumeoutlines h3 {
+    font-size: 16px;
+  }
+
+  .resumeoutlines li:not(:last-of-type):after {
+    content: ',';
+    margin-right: 0.2em;
+  }
+
+  .resumeoutlines ul li:before {
+    display: none;
+  }
+
+  .resumeoutlines ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+
+  .profilesummary .name {
+    font-size: 30px;
+  }
+
+  .profilesummary h2 {
+    font-size: 20px;
+  }
+
+  .articles p {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .companyinfo {
+    flex-direction: column;
+  }
+  .companyinfo h4 {
+    font-size: 15px;
+  }
+  .points {
+    max-width: 100%;
+  }
+  .points li {
+    font-size: 14px;
+  }
+  .resume {
+    padding: 20px 5%;
+  }
 }

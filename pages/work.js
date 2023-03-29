@@ -23,8 +23,8 @@ export default function Work() {
                 <div className={styles.workSection}>
                     <div>Personal projects I've worked on.</div>
                     <div>
-                        <a href='https://epic-clarke-84c943.netlify.app/' target={'_blank'}> A simple project using gatsby</a>
-                        <a href='https://epic-clarke-84c943.netlify.app/' target={'_blank'}> My portfolio with nextJS</a>
+                        <a href='https://epic-clarke-84c943.netlify.app/' target={'_blank'}>A simple project using gatsby</a>
+                        <a href='https://epic-clarke-84c943.netlify.app/' target={'_blank'}>My portfolio with NextJS</a>
                         <a href='https://epic-clarke-84c943.netlify.app/' target={'_blank'}>Amazon App</a>
                         <a href='https://epic-clarke-84c943.netlify.app/' target={'_blank'}>Netflix</a>
                     </div>
