@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import RootLayout from '../src/app/layout'
-import styles from '../src/app/page.module.css'
+import styles from '../src/app/Page.module.css'
 
 export default function Resume() {
     const [initialRenderComplete, setInitialRenderComplete] = useState(false);

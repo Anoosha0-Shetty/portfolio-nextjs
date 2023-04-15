@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './Page.module.css'
 import profilePic from '../../public/laptop.jpg'
 import RootLayout from './layout'
 
