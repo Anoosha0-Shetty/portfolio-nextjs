@@ -38,7 +38,7 @@
     background-size: cover;
     background-position-x: center;
     margin-left: 38%;
-    background-image: url(../../public/profile.jpg);
+    background-image: url(./profile.jpg);
   }
   
   .aboutme {
